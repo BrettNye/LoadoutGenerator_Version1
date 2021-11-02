@@ -1,0 +1,84 @@
+<DOCTYPE! html>
+<html lang=en-US>
+    <head>
+        <title>Test</title>
+        <!--<script src=test.js></script>-->
+        <script src="anothertest.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div>
+            <h2 id="gunNames">dfdsaf</h2>
+            <table id="mainWeapon" style="border: 2px solid black; background-color: #584f4a">
+                <tr>
+                    <td rowspan="9"><img id="MgunImage" style="width: 300px; height: 120px"></td>
+                </tr>
+                <tr>
+                    <td style="width: 300px"><p id="MAttachment1" class="Attacment"></td>
+                </tr>
+                <tr>
+                    <td><p id="MAttachment2" style="margin: none;" class="guns"></td>
+                </tr>
+                <tr>
+                    <td><p id="MAttachment3" style="margin: none;" class="guns"></td>
+                </tr>
+                <tr>
+                    <td><p id="MAttachment4" style="margin: none;" class="guns"></td>
+                </tr>
+                <tr>
+                    <td><p id="MAttachment5" style="margin: none;" class="guns"></td>
+                </tr>
+                <tr>
+                    <td id="Mattach6"><p id="MAttachment6" style="margin: none;" class="guns"></td>
+                </tr>
+                <tr>
+                    <td id="Mattach7"><p id="MAttachment7" style="margin: none;" class="guns"></td>
+                </tr>
+                <tr>
+                    <td id="Mattach8"><p id="MAttachment8" style="margin: none;" class="guns"></td>
+                </tr>
+            </table>
+            
+            <table style="border: 2px solid black">
+                <tr>
+                    <td rowspan="9"><img id="SgunImage" style="width: 300px; height: 120px" class="guns"></td>
+                </tr>
+                <tr>
+                    <td style="width: 300px"><p id="SAttachment1" class="Attacment"></td>
+                </tr>
+                <tr>
+                    <td><p id="SAttachment2" class="guns"></td>
+                </tr>
+                <tr>
+                    <td><p id="SAttachment3" class="guns"></td>
+                </tr>
+                <tr>
+                    <td><p id="SAttachment4" class="guns"></td>
+                </tr>
+                <tr>
+                    <td><p id="SAttachment5" class="guns"></td>
+                </tr>
+            </table>
+            <div style="width: 600px; height: 35px; display:flex">
+                <img id="Perk1" style="width: 200px">
+                <img id="Perk2" style="width: 200px">
+                <img id="Perk3" style="width: 200px">
+            </div>
+            <div style="width: 600px; height: 35px; display: flex">
+                <img id="Lethal" style="width: 200px">
+                <img id="Tactical" style="width: 200px">
+                <img id="FieldUpgrade" style="width: 200px">
+            </div>
+            <img id="Wildcard">
+            <img id="PerkWild1" style="width: 200px">
+            <img id="PerkWild2" style="width: 200px">
+            <img id="PerkWild3" style="width: 200px">
+            <button id="CreateBTN" onclick="Loadout()">Push Me</button>
+        </div>
+        <style>
+            #mainWeapon td{
+                border: 2px solid black;
+            }
+        </style>
+    </body>
+</html>
